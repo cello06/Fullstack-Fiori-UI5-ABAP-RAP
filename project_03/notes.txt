@@ -1,0 +1,115 @@
+Notes for myself and whoever has curiosity to read :)
+
+📝 SAPUI5 Learning Notes  
+Author: Celalettin (Using chatGPT)  
+Purpose: For myself and anyone curious enough to understand how a UI5 app works behind the scenes.
+
+============================
+📌 Overview
+============================
+
+This document is a personal walkthrough of how a simple SAPUI5 application is structured — starting from `index.html`, moving into `Component.js`, and ending with the XML view and controller logic.
+
+I wrote these notes to clarify how all the pieces come together in a typical Fiori-like app using the UI5 framework.  
+
+Let’s begin step by step.
+
+============================
+ index.html
+============================
+
+This is the entry point of any standalone SAPUI5 app.
+
+Inside the `<script>` tag, we initialize UI5 with:
+
+- `data-sap-ui-onInit="module:sap/ui/core/ComponentSupport"`  
+   This tells UI5 to look for a Component to bootstrap instead of a plain view.
+  
+- `data-sap-ui-resourceroots` defines the namespace mappings (like aliases for folder paths).  
+  Example: `"project_03": "./"`
+
+In the `<body>`, we add this:
+```html
+<div id="content" data-sap-ui-component='{
+  "name": "project_03"
+}'></div>
+
+
+Continuing from Component.js explanation, now let’s look at the XML View and its Controller.
+
+In this project, XML views are responsible for the **UI layout**. Controllers are responsible for the **logic/interaction** behind the UI.
+
+============================
+XML VIEW - App.view.xml
+============================
+
+The XML view is like the HTML of SAPUI5 — it defines **what the user sees**.
+
+In this example:
+
+<App.view.xml>
+---------------------------------------
+<mvc:View
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns="sap.m"
+    controllerName="project_03.controller.App">
+    
+    <VBox class="sapUiSmallMargin">
+        <Text text="Hello {/recipient/name}" />
+        <Input value="{/recipient/name}" />
+    </VBox>
+</mvc:View>
+---------------------------------------
+
+Key points:
+- `mvc:View`: Root tag of every XML view.
+- `xmlns`: Defines which UI5 controls we are using (`sap.m`, for mobile controls).
+- `controllerName`: Connects this view to a corresponding controller (`App.controller.js`).
+- `Text` and `Input` are bound to `/recipient/name`, which we defined in Component.js via the JSONModel.
+
+Data binding in SAPUI5 uses the **{path}** syntax. So `{/recipient/name}` means: show or update data from that path in the model.
+
+
+============================
+CONTROLLER - App.controller.js
+============================
+
+Now let’s look at the controller file, where the logic lives:
+
+<App.controller.js>
+---------------------------------------
+sap.ui.define([
+    "sap/ui/core/mvc/Controller"
+], function (Controller) {
+    "use strict";
+
+    return Controller.extend("project_03.controller.App", {
+        onInit: function () {
+            // This function runs when the view is initialized
+            console.log("Controller initialized");
+        }
+    });
+});
+---------------------------------------
+
+Key points:
+- Controllers extend `sap.ui.core.mvc.Controller`.
+- The `onInit` function is a lifecycle hook. It’s automatically called when the view is loaded.
+- You can use this function to do things like: load data, attach event handlers, or modify models.
+
+You can also define custom functions here and call them from XML via event bindings like `press="onPress"`.
+
+
+============================
+Summary
+============================
+
+- Component.js starts the app and sets up the global model.
+- App.view.xml defines what the user sees and binds to the model.
+- App.controller.js controls what happens behind the scenes, like reacting to user input or lifecycle events.
+
+Together, these files create a clean **Model-View-Controller (MVC)** structure in SAPUI5.
+
+This is the foundation for building scalable and maintainable Fiori apps.
+
+-- END OF NOTES --
