@@ -10,7 +10,7 @@
       items="{invoice>/Invoices}" >
       <items>
          <ObjectListItem
-         core:require="{
+            core:require="{
                     Currency: 'sap/ui/model/type/Currency'
                 }"
             title="{invoice>Quantity} x {invoice>ProductName}"
@@ -24,7 +24,19 @@
                         showMeasure: false
                     }
                 }"
-                numberUnit="{view>/currency}"/>
+            numberUnit="{view>/currency}"
+            numberState="{= ${invoice>ExtendedPrice} > 50 ? 'Error' : 'Success' }">
+            <firstStatus>
+                    <ObjectStatus
+                        core:require="{
+                            Formatter: 'project_03/model/formatter'
+                        }"
+                        text="{
+                            path: 'invoice>Status',
+                            formatter: 'Formatter.statusText.bind($controller)'
+                        }"/>
+                </firstStatus>
+            </ObjectListItem>
       </items>
    </List>
 </mvc:View>
