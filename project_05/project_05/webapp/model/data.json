@@ -1,0 +1,242 @@
+{
+	"employers":[
+    {
+        "firstName": "Sarah",
+        "lastName": "Hawk",
+        "enabled": false,
+        "address": {
+            "street": "19 Oak Street",
+            "city": "Frankfurt",
+            "zip": "52323",
+            "country": "Germany"
+        },
+        "salesAmount": 4328.49,
+        "priceThreshold": 10,
+        "currencyCode": "CHF"
+    },
+    {
+        "firstName": "Emma",
+        "lastName": "Miller",
+        "enabled": true,
+        "address": {
+            "street": "52 Main Street",
+            "city": "Munich",
+            "zip": "51381",
+            "country": "Switzerland"
+        },
+        "salesAmount": 7543.74,
+        "priceThreshold": 73,
+        "currencyCode": "GBP"
+    },
+    {
+        "firstName": "Anna",
+        "lastName": "Garcia",
+        "enabled": true,
+        "address": {
+            "street": "25 Elm Street",
+            "city": "Berlin",
+            "zip": "63326",
+            "country": "Austria"
+        },
+        "salesAmount": 2902.53,
+        "priceThreshold": 27,
+        "currencyCode": "EUR"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Johnson",
+        "enabled": true,
+        "address": {
+            "street": "44 Main Street",
+            "city": "Cologne",
+            "zip": "47104",
+            "country": "France"
+        },
+        "salesAmount": 8865.56,
+        "priceThreshold": 50,
+        "currencyCode": "CHF"
+    },
+    {
+        "firstName": "Anna",
+        "lastName": "Williams",
+        "enabled": false,
+        "address": {
+            "street": "57 Main Street",
+            "city": "Leipzig",
+            "zip": "97964",
+            "country": "Belgium"
+        },
+        "salesAmount": 1792.56,
+        "priceThreshold": 48,
+        "currencyCode": "CHF"
+    },
+    {
+        "firstName": "Sarah",
+        "lastName": "Hawk",
+        "enabled": true,
+        "address": {
+            "street": "71 Oak Street",
+            "city": "Leipzig",
+            "zip": "63296",
+            "country": "Germany"
+        },
+        "salesAmount": 4015.64,
+        "priceThreshold": 75,
+        "currencyCode": "CHF"
+    },
+    {
+        "firstName": "John",
+        "lastName": "Johnson",
+        "enabled": true,
+        "address": {
+            "street": "48 Oak Street",
+            "city": "Hamburg",
+            "zip": "42967",
+            "country": "France"
+        },
+        "salesAmount": 7106.83,
+        "priceThreshold": 89,
+        "currencyCode": "USD"
+    },
+    {
+        "firstName": "Harry",
+        "lastName": "Williams",
+        "enabled": false,
+        "address": {
+            "street": "84 Oak Street",
+            "city": "Frankfurt",
+            "zip": "79472",
+            "country": "Belgium"
+        },
+        "salesAmount": 5396.4,
+        "priceThreshold": 17,
+        "currencyCode": "CHF"
+    },
+    {
+        "firstName": "Peter",
+        "lastName": "Smith",
+        "enabled": true,
+        "address": {
+            "street": "45 Elm Street",
+            "city": "Munich",
+            "zip": "55423",
+            "country": "Germany"
+        },
+        "salesAmount": 1345.67,
+        "priceThreshold": 34,
+        "currencyCode": "USD"
+    },
+    {
+        "firstName": "Olivia",
+        "lastName": "Smith",
+        "enabled": true,
+        "address": {
+            "street": "17 Elm Street",
+            "city": "Walldorf",
+            "zip": "35356",
+            "country": "Switzerland"
+        },
+        "salesAmount": 4893.11,
+        "priceThreshold": 91,
+        "currencyCode": "EUR"
+    },
+    {
+        "firstName": "Anna",
+        "lastName": "Hawk",
+        "enabled": true,
+        "address": {
+            "street": "76 Elm Street",
+            "city": "Frankfurt",
+            "zip": "11508",
+            "country": "Austria"
+        },
+        "salesAmount": 4286.49,
+        "priceThreshold": 93,
+        "currencyCode": "GBP"
+    },
+    {
+        "firstName": "David",
+        "lastName": "Garcia",
+        "enabled": false,
+        "address": {
+            "street": "70 Main Street",
+            "city": "Cologne",
+            "zip": "46288",
+            "country": "Germany"
+        },
+        "salesAmount": 9422.18,
+        "priceThreshold": 57,
+        "currencyCode": "CHF"
+    },
+    {
+        "firstName": "Mark",
+        "lastName": "Smith",
+        "enabled": true,
+        "address": {
+            "street": "61 Elm Street",
+            "city": "Frankfurt",
+            "zip": "54495",
+            "country": "UK"
+        },
+        "salesAmount": 3328.83,
+        "priceThreshold": 24,
+        "currencyCode": "GBP"
+    },
+    {
+        "firstName": "Mark",
+        "lastName": "Garcia",
+        "enabled": true,
+        "address": {
+            "street": "3 Park Street",
+            "city": "Frankfurt",
+            "zip": "26337",
+            "country": "France"
+        },
+        "salesAmount": 6661.21,
+        "priceThreshold": 16,
+        "currencyCode": "GBP"
+    },
+    {
+        "firstName": "Harry",
+        "lastName": "Williams",
+        "enabled": true,
+        "address": {
+            "street": "62 Main Street",
+            "city": "Walldorf",
+            "zip": "80041",
+            "country": "Austria"
+        },
+        "salesAmount": 7050.79,
+        "priceThreshold": 38,
+        "currencyCode": "GBP"
+    },
+    {
+        "firstName": "Emma",
+        "lastName": "Hawk",
+        "enabled": true,
+        "address": {
+            "street": "44 Elm Street",
+            "city": "Hamburg",
+            "zip": "64585",
+            "country": "Italy"
+        },
+        "salesAmount": 7217.52,
+        "priceThreshold": 37,
+        "currencyCode": "EUR"
+    },
+    {
+        "firstName": "Mark",
+        "lastName": "Garcia",
+        "enabled": false,
+        "address": {
+            "street": "54 Main Street",
+            "city": "Munich",
+            "zip": "15546",
+            "country": "Austria"
+        },
+        "salesAmount": 1771.99,
+        "priceThreshold": 38,
+        "currencyCode": "USD"
+    }
+]
+}
