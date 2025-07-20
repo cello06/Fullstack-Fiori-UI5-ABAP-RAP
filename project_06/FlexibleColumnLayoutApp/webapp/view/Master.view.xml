@@ -11,6 +11,7 @@
 				<f:heading>
 					<Title text="Products ({products>/ProductCollectionStats/Counts/Total})"/>
 				</f:heading>
+                
 			</f:DynamicPageTitle>
 		</f:title>
 
