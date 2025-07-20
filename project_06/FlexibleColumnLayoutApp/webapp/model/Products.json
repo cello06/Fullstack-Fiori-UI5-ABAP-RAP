@@ -1,0 +1,129 @@
+{
+  "ProductCollectionStats": {
+    "Counts": {
+      "Total": 20
+    }
+  },
+  "ProductCollection": [
+    {
+      "ProductId": "P001",
+      "Name": "Laptop Pro 15",
+      "Price": 1299.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P002",
+      "Name": "Ultra Monitor 4K",
+      "Price": 399.5,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P003",
+      "Name": "Wireless Mouse",
+      "Price": 49.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P004",
+      "Name": "Mechanical Keyboard",
+      "Price": 89.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P005",
+      "Name": "Gaming Headset",
+      "Price": 79.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P006",
+      "Name": "Portable SSD 1TB",
+      "Price": 129.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P007",
+      "Name": "Smartphone X",
+      "Price": 899.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P008",
+      "Name": "Tablet Pro 12",
+      "Price": 599.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P009",
+      "Name": "Smartwatch Series 5",
+      "Price": 249.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P010",
+      "Name": "Bluetooth Speaker",
+      "Price": 99.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P011",
+      "Name": "4K Action Camera",
+      "Price": 299.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P012",
+      "Name": "VR Headset",
+      "Price": 399.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P013",
+      "Name": "Smart Home Hub",
+      "Price": 149.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P014",
+      "Name": "Wireless Charger",
+      "Price": 39.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P015",
+      "Name": "Gaming Console",
+      "Price": 499.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P016",
+      "Name": "Noise-Cancelling Headphones",
+      "Price": 199.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P017",
+      "Name": "Smart TV 55\"",
+      "Price": 799.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P018",
+      "Name": "Fitness Tracker",
+      "Price": 59.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P019",
+      "Name": "E-Reader",
+      "Price": 129.99,
+      "CurrencyCode": "USD"
+    },
+    {
+      "ProductId": "P020",
+      "Name": "Digital Camera",
+      "Price": 499.99,
+      "CurrencyCode": "USD"
+    }
+  ]
+}
