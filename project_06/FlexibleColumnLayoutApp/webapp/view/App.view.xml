@@ -8,5 +8,8 @@ xmlns:mvc="sap.ui.core.mvc">
   <beginColumnPages>
     <mvc:XMLView id="beginView" viewName="flexiblecolumnlayout.view.Master"/>
   </beginColumnPages>
+  	<midColumnPages>
+			<mvc:XMLView id="detailView" viewName="flexiblecolumnlayout.view.Detail"/>
+		</midColumnPages>
 </FlexibleColumnLayout>
 </mvc:View>
