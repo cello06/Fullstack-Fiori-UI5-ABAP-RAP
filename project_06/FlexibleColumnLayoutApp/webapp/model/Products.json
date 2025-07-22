@@ -2,7 +2,28 @@
   "ProductCollectionStats": {
     "Counts": {
       "Total": 20
-    }
+    },
+    "Filters": [
+      {
+        "values": []
+      },
+      {
+        "values": [
+          { "text": "Titanium" },
+          { "text": "Technocom" },
+          { "text": "Red Point Stores" },
+          { "text": "Very Best Screens" },
+          { "text": "Smartcards" },
+          { "text": "Alpha Printers" },
+          { "text": "Printer for All" },
+          { "text": "Oxynum" },
+          { "text": "Fasttech" },
+          { "text": "Ultrasonic United" },
+          { "text": "Speaker Experts" },
+          { "text": "Brainsoft" }
+        ]
+      }
+    ]
   },
   "ProductCollection": [
     {
