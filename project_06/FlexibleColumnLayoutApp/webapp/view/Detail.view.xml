@@ -1,4 +1,5 @@
 <mvc:View
+    controllerName="flexiblecolumnlayout.controller.Detail"
 	xmlns="sap.uxap"
 	xmlns:m="sap.m"
 	xmlns:f="sap.f"
@@ -15,6 +16,11 @@
 		<headerTitle>
 			<ObjectPageDynamicHeaderTitle>
 				<actions>
+					   <m:Button
+                         icon="sap-icon://nav-back"
+                         type="Transparent"
+                         press=".onNavBack"
+                         />
 					<m:ToggleButton
 						text="Edit"
 						type="Emphasized"/>

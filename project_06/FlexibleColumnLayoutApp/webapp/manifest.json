@@ -24,10 +24,46 @@
 		},
 		"config": {
 			"fullWidth": true
-		},"models": {
-			"products" : {
+		},
+		"models": {
+			"products": {
 				"type": "sap.ui.model.json.JSONModel",
 				"uri": "./model/Products.json"
+			}
+		},
+		"routing": {
+			"config": {
+				"routerClass": "sap.f.routing.Router",
+				"viewType": "XML",
+				"viewPath": "flexiblecolumnlayout.view",
+				"controlId": "fcl",
+				"controlAggregation": "beginColumnPages",
+				"transition": "slide",
+				"async": true
+			},
+			"routes": [
+				{
+					"pattern": "",
+					"name": "master",
+					"target": ["master"]
+				},
+				{
+					"pattern": "detail/{productId}",
+					"name": "detail",
+					"target": ["master", "detail"]
+				}
+			],
+			"targets": {
+				"master": {
+					"viewName": "Master",
+					"viewLevel": 1,
+					"controlAggregation": "beginColumnPages"
+				},
+				"detail": {
+					"viewName": "Detail",
+					"viewLevel": 2,
+					"controlAggregation": "midColumnPages"
+				}
 			}
 		}
 	}
